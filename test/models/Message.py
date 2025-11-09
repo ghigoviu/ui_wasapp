@@ -8,14 +8,14 @@ class Message(Base):
     sid = Column(String, index=True, nullable=True)
     to = Column(String)
     message = Column(String)
-    status = Column(String)
+    status = Column(String, nullable=True)
     command = Column(String, default="none")
     amount = Column(Integer, default=0)
 
-    def __init__(self, sid, to, message, status, command, amount):
+    def __init__(self, sid, to, message, command, amount):
         self.sid = sid
         self.to = to
         self.message = message
-        self.status = status
+        self.status = "success"
         self.command = command
         self.amount = amount

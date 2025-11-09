@@ -1,4 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean
+from sqlalchemy.orm import relationship
+
 from Database.Database import Base
 
 class Usuario(Base):
@@ -11,3 +13,5 @@ class Usuario(Base):
     wa_user_id = Column(String)
     verified = Column(Boolean)
     pin = Column(String)
+
+    mensajes = relationship("Mensaje", back_populates="usuario")

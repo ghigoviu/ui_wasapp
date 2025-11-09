@@ -1,4 +1,6 @@
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer, String, Float, ForeignKey
+from sqlalchemy.orm import relationship
+
 from Database.Database import Base
 
 class Wallet(Base):
@@ -6,9 +8,12 @@ class Wallet(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     interledger_wallet_id = Column(String, index=True)
-    user_id = Column(String, index=True)
     balance = Column(Float)
+    clabe = Column(String)
     pin_hash = Column(String)
     currency = Column(String,default="MXN")
     state_context = Column(String)
     account_address = Column(String)
+    user_id = Column(Integer, ForeignKey("usuarios.id"), nullable=False)
+
+    user = relationship("Usuario", backref="wallets")

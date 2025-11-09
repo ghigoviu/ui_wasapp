@@ -10,8 +10,11 @@ class MensajeBase(BaseModel):
     amount: str
 
 
-class MensajeCreate(MensajeBase):
-    pass
+class MensajeCreate(BaseModel):
+    phone_number: str
+    mensaje: str
+    comando: str
+    amount: str
 
 
 class MensajeOut(MensajeBase):
@@ -19,4 +22,4 @@ class MensajeOut(MensajeBase):
     timestamp: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True

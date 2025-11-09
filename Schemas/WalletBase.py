@@ -25,7 +25,6 @@ class WalletUpdate(BaseModel):
 
 class WalletOut(WalletBase):
     id: int
-    registration_timestamp: datetime
 
     class Config:
-        orm_mode = True
+        from_attributes = True

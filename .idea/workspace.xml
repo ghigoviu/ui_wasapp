@@ -5,38 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3abcea74-fbb6-46c1-9410-9ab4fca61c64" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Controladores/Transaccion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controladores/Usuario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controladores/Wallet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controladores/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/Database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelos/Mensaje.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelos/Transaction.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelos/Usuario.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelos/Wallet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Modelos/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/MensajeBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/TransactionBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/UserBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/WalletBase.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Schemas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UseCases/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basecode/controllers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basecode/fake_users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basecode/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCases/ReceiveMessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCases/SendMessage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UseCases/Verificacion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/twilio_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basecode/backend/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/autorization.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/endpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/Mensaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/Mensaje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/Transaccion.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/Transaccion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controladores/Wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/Wallet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Mensaje.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos/Mensaje.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Transaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos/Transaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Usuario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos/Usuario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modelos/Wallet.py" beforeDir="false" afterPath="$PROJECT_DIR$/Modelos/Wallet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/MensajeBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/MensajeBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/TransactionBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/TransactionBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/UserBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/UserBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schemas/WalletBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/Schemas/WalletBase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UseCases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fectivo.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messages.db" beforeDir="false" afterPath="$PROJECT_DIR$/messages.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/Message.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controladores/Mensaje.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/endpoint.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/Message.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/Message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/models.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +57,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.endpoint.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Projects/PyProjects/PythonProject/WhatsAppAPI/Schemas&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.endpoint.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/ADMIN/Projects/PyProjects/PythonProject/WhatsAppAPI/basecode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Projects\PyProjects\PythonProject\WhatsAppAPI\basecode" />
       <recent name="C:\Users\ADMIN\Projects\PyProjects\PythonProject\WhatsAppAPI\Schemas" />
       <recent name="C:\Users\ADMIN\Projects\PyProjects\PythonProject\WhatsAppAPI\DataBase" />
-      <recent name="C:\Users\ADMIN\Projects\PyProjects\PythonProject\WhatsAppAPI\basecode" />
       <recent name="C:\Users\ADMIN\Projects\PyProjects\PythonProject\WhatsAppAPI" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
